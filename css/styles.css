@@ -1,0 +1,205 @@
+ body {
+   margin: 0;
+   text-align: center;
+   font-family: 'Merriweather', serif;
+ }
+
+
+ /*******************  Headings *******************/
+
+
+
+ h1 {
+   color: #66BFBF;
+   font-size: 4rem;
+   /***
+   line-height: 2;
+   ***/
+   margin: 50px auto 0 auto;
+   font-family: 'Sacramento', cursive;
+ }
+
+ h2 {
+   color: #66BFBF;
+   font-weight: normal;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2.5rem;
+   padding-bottom: 10px;
+ }
+
+ h3 {
+   font-family: 'Montserrat', sans-serif;
+   color: #11999E;
+  clear: left;
+ }
+
+hr {
+  padding: 50px;
+  color: #EAF6F6;
+  border-top: dotted 10px;
+  border-left-width: 0;
+  border-bottom: none;
+  border-right-width: 0;
+  margin: 100px auto;
+  width: 5%;
+
+}
+
+.Design-Development {
+  clear: right;
+}
+
+.Web-Design {
+  clear: left;
+
+}
+ /*******************  Headings *******************/
+
+
+ p {
+   color: #D4ECDD;
+ }
+
+ a {
+   color: #11999E;
+   font-family: 'Montserrat', sans-serif;
+   text-decoration: none;
+
+ }
+
+ a:hover {
+   color: #D4ECDD;
+ }
+
+
+ /*******************  Container *******************/
+
+
+
+ .Top-Container {
+   background-color: #152D35;
+   position: relative;
+   padding-top: 100px;
+ }
+
+ .middle-container {
+   background-color: #345B63;
+ }
+
+ .bottom-container {
+   background-color: #112031;
+   padding: 50px;
+ }
+
+ /*******************  Container *******************/
+
+
+
+ /*** coloring text ****/
+
+ .contact-message {
+   width: 40%;
+   margin: 100px auto;
+ }
+
+ /*** coloring text ****/
+ span {
+   text-decoration: underline;
+ }
+
+
+ /*******************  Image-CSS up *******************/
+
+
+ .top-cloud {
+   position: absolute;
+   right: 300px;
+   top: 50px;
+ }
+
+ .bottom-cloud {
+   position: absolute;
+   left: 300px;
+   bottom: 300px;
+ }
+
+   .profile-img {
+   width: 300px;
+   height: 300px;
+   border-radius: 100%;
+ }
+
+ .skill-gif {
+   float: left;
+   margin-right: 30px;
+   height: 300px;
+   border-radius: 50;
+ }
+
+ .web-design-img {
+   width: 25%;
+   height: 300px;
+   float: right;
+   margin-right: 30px;
+ }
+
+ /*******************  Image-CSS  bottom*******************/
+
+
+ .skill-row {
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   line-height: 2;
+   padding: 50px;
+
+ }
+
+
+
+
+ /********************************************************
+.code-skill-description {
+  clear: left;
+}
+
+.code-spice-description {
+  clear: right;
+}
+***********************************************************/
+
+
+
+
+.Contact-Me {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #D4ECDE;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 19px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #66BFBB;
+   text-shadow: 1px 1px 20px #152D35;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.Contact-Me:hover {
+   background: #66BFBB;
+   border: solid #FFFFFF 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.contact-me {
+  padding-bottom: 50px;
+}
+ .footer-link {
+   margin: 20px;
+ }
